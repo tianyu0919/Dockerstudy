@@ -1,0 +1,16 @@
+{
+  "name": "part3",
+  "version": "1.0.0",
+  "description": "制作自己的镜像。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0",
+    "log4js": "^6.9.1"
+  }
+}
