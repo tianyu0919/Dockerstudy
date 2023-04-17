@@ -10,7 +10,7 @@ log4js.level = "DEBUG";
 const logger = log4js.getLogger("app");
 
 const redis = require("redis");
-const rds = redis.createClient({ url: "redis://redis:6377" });
+const rds = redis.createClient({ url: "redis://redis:6379" });
 
 rds.on("connect", () => console.log("redis connect ok"));
 rds.connect();
